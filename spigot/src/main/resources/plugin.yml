@@ -1,0 +1,14 @@
+name: IPWhitelist
+authors: [ roblabla, SavageAvocado ]
+version: ${version}
+main: net.revelationmc.ipwhitelist.spigot.IpWhitelistPlugin
+
+commands:
+  ipwhitelist:
+    description: IPWhitelist main command. Use /bungeejoin to get more help.
+    aliases: [ 'ipwl' ]
+    permission: ipwhitelist.setup
+
+permissions:
+  ipwhitelist.setup:
+    default: op
